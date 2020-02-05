@@ -5,3 +5,7 @@ end
 def using_unshift(array,new_element)
   array.unshift(new_element)
 end
+
+def using_pop(array)
+  array.pop()
+end
