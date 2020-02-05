@@ -38,6 +38,10 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-  new_array = array.flatten
+  new_array = array.flatten()
   p new_array
+end
+
+def using_delete(array,element)
+  array.delete(element)
 end
