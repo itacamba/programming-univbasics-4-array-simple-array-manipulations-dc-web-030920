@@ -34,5 +34,5 @@ end
 
 def using_uniq(array)
   new_array = array.uniq()
-
+  p new_array
 end
